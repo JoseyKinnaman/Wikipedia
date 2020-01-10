@@ -2,23 +2,37 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Wikipedia: The free encyclopedia</title>
   </head>
   <body>
     <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-1">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, incidunt? Perspiciatis corrupti iure repellat dolorum aperiam eius nesciunt officiis minus dicta eaque illo deserunt, illum, placeat, nam voluptates. Dignissimos, odio?</p>
-        </div>  
-        <div class="col-md-11">
-          <ul class="nav nav-tabs">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="img/wikilogo.jpeg" alt="wikilogo">
+          <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Main Page</a>
+                <a class="nav-link active" href="#">Active</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Talk</a>
+                <a class="nav-link" href="#">Link</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Main Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Talk</a>
+          </li>
             <nav class="navbar navbar-light bg-light">
                 <form class="form-inline">
                   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -28,10 +42,14 @@
             </ul>
           <div class="well">
             <div class="row">
-              <div class="col-md-6">
-                <H4>Welcome to Wikipedia,</H4>
-                <p>the free encyclopedia that anyone can edit.</p>
-                <p>5,993,411 articles in English</p>
+              <div class="col-md-4">
+                <div class="wiki-intro">
+                  <h4>Welcome to Wikipedia,</h4>
+                  <p>the free encyclopedia that anyone can edit. <br />
+                  5,993,411 articles in English</p>
+                </div>
+              </div>
+              <div class="col-md-2">
               </div>
               <div class="col-md-2">
               <ul>
@@ -59,17 +77,17 @@
       <div class="row">
         <div class="col-md-7">
           <div class="panel panel-success">
-          <div class="panel-heading"> 
-            <h2 class="panel-title">From today's featured article</h2>
+          <div class="panel-heading bg-success"> 
+            <h2 class="panel-title bg-success">From today's featured article</h2>
           </div>
-          <div class="panel-body">
+          <div class="panel-body bg-success">
             <img src="img/160px-Ham_Wall_reedbeds.webp" alt="reed beds">
             <p class="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam ipsa, eveniet quas a commodi, quam reiciendis doloremque corporis obcaecati sapiente architecto, velit eaque. Aliquam modi accusantium esse ab ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum neque nemo eos! Reiciendis sint ipsum a unde quos ullam quae officiis, soluta quo cum perspiciatis cupiditate suscipit laborum quam ipsam.</p>
           </div> 
           <div class="panel-heading"> 
             <h2 class="panel-title">From today's featured article</h2>
           </div>
-          <div class="panel-body">
+          <div class="panel-body bg-success">
             <img src="img/160px-Ham_Wall_reedbeds.webp" alt="reed beds">
             <p class="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam ipsa, eveniet quas a commodi, quam reiciendis doloremque corporis obcaecati sapiente architecto, velit eaque. Aliquam modi accusantium esse ab ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum neque nemo eos! Reiciendis sint ipsum a unde quos ullam quae officiis, soluta quo cum perspiciatis cupiditate suscipit laborum quam ipsam.</p>
           </div> 
@@ -80,20 +98,21 @@
           <div class="panel-heading"> 
             <h2 class="panel-title">From today's featured article</h2>
           </div>
-          <div class="panel-body">
+          <div class="panel-body bg-info">
             <img src="img/160px-Ham_Wall_reedbeds.webp" alt="reed beds">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam ipsa, eveniet quas a commodi, quam reiciendis doloremque corporis obcaecati sapiente architecto, velit eaque. Aliquam modi accusantium esse ab ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum neque nemo eos! Reiciendis sint ipsum a unde quos ullam quae officiis, soluta quo cum perspiciatis cupiditate suscipit laborum quam ipsam.</p>
           </div> 
           <div class="panel-heading"> 
             <h2 class="panel-title">From today's featured article</h2>
           </div>
-            <div class="panel-body">
+            <div class="panel-body bg-info">
               <img src="img/160px-Ham_Wall_reedbeds.webp" alt="reed beds">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magnam ipsa, eveniet quas a commodi, quam reiciendis doloremque corporis obcaecati sapiente architecto, velit eaque. Aliquam modi accusantium esse ab ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum neque nemo eos! Reiciendis sint ipsum a unde quos ullam quae officiis, soluta quo cum perspiciatis cupiditate suscipit laborum quam ipsam.</p>
             </div> 
-          </div>  
-        </div>
+          </div> 
+        </div> 
       </div>
+    </div> 
      </div>
     </div>   
   </body>
